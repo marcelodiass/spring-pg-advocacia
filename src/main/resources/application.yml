@@ -1,1 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL
+    username: rm98251
+    password: 050105
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
 
+server:
+  port: 80
